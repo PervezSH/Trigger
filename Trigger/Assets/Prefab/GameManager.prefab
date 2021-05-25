@@ -1,0 +1,276 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4193056591419695910
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4193056591419695912}
+  - component: {fileID: 4193056591419695911}
+  - component: {fileID: 1963026863}
+  - component: {fileID: 923641664}
+  - component: {fileID: 923641665}
+  - component: {fileID: 923641666}
+  - component: {fileID: 923641667}
+  - component: {fileID: 923641668}
+  - component: {fileID: 923641669}
+  - component: {fileID: 923641670}
+  - component: {fileID: 923641671}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4193056591419695912
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4193056591419695910}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4193056591419695911
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4193056591419695910}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd87c37a0e4d8054799d790b4b05d458, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  get_player: {fileID: 0}
+--- !u!114 &1963026863
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4193056591419695910}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af9fe22db5a5731478a4f55fabff0a45, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  get_camera: {fileID: 0}
+--- !u!114 &923641664
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4193056591419695910}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7268cdad829197c40b3c0016094d2f2b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pressed_color: {r: 0.34901962, g: 0.34901962, b: 0.34901962, a: 1}
+  normal_color: {r: 1, g: 1, b: 1, a: 1}
+  hud: {fileID: 0}
+  buttons_and_joysticks: {fileID: 0}
+  pause_menu: {fileID: 0}
+  extra_menu: {fileID: 0}
+  resume_button: {fileID: 0}
+  resume_text: {fileID: 0}
+  restart_button: {fileID: 0}
+  restart_text: {fileID: 0}
+  main_menu_button: {fileID: 0}
+  main_menu_text: {fileID: 0}
+  sound_button: {fileID: 0}
+  sound_text: {fileID: 0}
+  control_button: {fileID: 0}
+  control_text: {fileID: 0}
+  control_menu: {fileID: 0}
+  exit_button: {fileID: 0}
+  exit_text: {fileID: 0}
+  extra_button: {fileID: 0}
+  extra_text: {fileID: 0}
+  get_extra_menu_script: {fileID: 923641671}
+  adding_time: 0
+--- !u!114 &923641665
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4193056591419695910}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0049fdb675ec2ec4fac3dc312c33f853, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &923641666
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4193056591419695910}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbfae437d94c17546a57caa29b64b231, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  get_slow_mo_button_to_click: {fileID: 0}
+  get_the_times: {fileID: 0}
+  get_slow_mo_sound: {fileID: 0}
+  get_the_button_image: {fileID: 0}
+  get_the_canvas: {fileID: 0}
+  get_the_slider: {fileID: 0}
+  buy_watch_ad_menu: {fileID: 0}
+  get_the_buywatchad_script: {fileID: 923641670}
+  get_game_item_script: {fileID: 0}
+  max_slow_time: 2
+  reduced_alpha: {r: 0.34901962, g: 0.34901962, b: 0.34901962, a: 0.5019608}
+  org_alpha: {r: 0.34901962, g: 0.34901962, b: 0.34901962, a: 1}
+--- !u!114 &923641667
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4193056591419695910}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f94cc45006534544b28bcaca5b9d60b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  total_time: 20
+  get_timer_text: {fileID: 0}
+  pressed_color: {r: 0.34901962, g: 0.34901962, b: 0.34901962, a: 1}
+  normal_color: {r: 1, g: 1, b: 1, a: 1}
+  time_out_menu: {fileID: 0}
+  hud: {fileID: 0}
+  buttons_and_joystick: {fileID: 0}
+  add_time_button: {fileID: 0}
+  add_time_text: {fileID: 0}
+  ad_text: {fileID: 0}
+  respawn_timer_text: {fileID: 0}
+  slow_mo_button: {fileID: 0}
+  ticking_sound: {fileID: 0}
+  get_pause_menu_script: {fileID: 923641664}
+  current_timer_timescale: 0
+--- !u!114 &923641668
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4193056591419695910}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3e8cc0b56bfffc4cb2eb7172d75f126, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pressed_color: {r: 0.34901962, g: 0.34901962, b: 0.34901962, a: 1}
+  normal_color: {r: 1, g: 1, b: 1, a: 1}
+  death_menu: {fileID: 0}
+  hud: {fileID: 0}
+  buttons_and_joystick: {fileID: 0}
+  respawn_button: {fileID: 0}
+  respawn_text: {fileID: 0}
+  ad_text: {fileID: 0}
+  get_health: {fileID: 0}
+  respawn_timer_text: {fileID: 0}
+  get_health_regenarator: {fileID: 0}
+  get_timer: {fileID: 0}
+  ticking_sound: {fileID: 0}
+--- !u!114 &923641669
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4193056591419695910}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fb247ea14c7b1d4aa7446a295888a3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pressed_color: {r: 0.34901962, g: 0.34901962, b: 0.34901962, a: 1}
+  normal_color: {r: 1, g: 1, b: 1, a: 1}
+  hud: {fileID: 0}
+  buttons_and_joysticks: {fileID: 0}
+  pause_menu: {fileID: 0}
+  control_menu: {fileID: 0}
+  exit_button: {fileID: 0}
+  exit_button_text: {fileID: 0}
+  save_button: {fileID: 0}
+  save_button_text: {fileID: 0}
+  joystick_org: {fileID: 0}
+  fire_button_org: {fileID: 0}
+  jump_button_org: {fileID: 0}
+  reload_button_org: {fileID: 0}
+  slow_mo_button_org: {fileID: 0}
+  joystick_dum: {fileID: 0}
+  fire_button_dum: {fileID: 0}
+  jump_button_dum: {fileID: 0}
+  reload_button_dum: {fileID: 0}
+  slow_mo_button_dum: {fileID: 0}
+--- !u!114 &923641670
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4193056591419695910}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6492e533daf1bad46b00714c4026a856, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pressed_color: {r: 0.34901962, g: 0.34901962, b: 0.34901962, a: 1}
+  normal_color: {r: 1, g: 1, b: 1, a: 1}
+  buy_watch_ad_menu: {fileID: 0}
+  get_the_character_health_script: {fileID: 0}
+  get_game_item_script: {fileID: 0}
+  hud: {fileID: 0}
+  buttons_and_joysticks: {fileID: 0}
+  blur_image_button: {fileID: 0}
+  buy_button: {fileID: 0}
+  buy_button_text: {fileID: 0}
+  extra_menu: {fileID: 0}
+  watch_add_button: {fileID: 0}
+  watch_add_button_text: {fileID: 0}
+  add_health: 0
+--- !u!114 &923641671
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4193056591419695910}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01eb5054a268b0e4393adb52bdf28271, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pressed_color: {r: 0.34901962, g: 0.34901962, b: 0.34901962, a: 1}
+  normal_color: {r: 1, g: 1, b: 1, a: 1}
+  not_enough_star_txt: {fileID: 0}
+  extra_menu: {fileID: 0}
+  pause_menu: {fileID: 0}
+  buttons_and_joy: {fileID: 0}
+  hud: {fileID: 0}
+  get_game_item_script: {fileID: 0}
+  star_no: {fileID: 0}
+  health_no: {fileID: 0}
+  slow_mo_no: {fileID: 0}
+  back_button: {fileID: 0}
+  back_text: {fileID: 0}
+  get_the_timescale: {fileID: 0}
+  get_the_bool: {fileID: 923641670}
