@@ -10,4 +10,5 @@ Some important features:
 - Flame as traps
 - Slow-mo: It's an item that gives the player the ability to slow time
 - Wall running mechanism
+
 On top of this, I also added interstitial ad and video ad, which allow the user to buy inventory items like extra health, extra slow-mo, and time. The ads are both skippable and non-skippable. Non-skippable ads are rewarded ads.
